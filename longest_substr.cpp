@@ -28,3 +28,13 @@ int lengthOfLongestSubstring(string s) {
     }
     return maxlen;
 }
+
+int main(){
+    string str = "abcabcbb"; 
+    cout << "The input string is " << str << endl; 
+    int len = lengthOfLongestSubstring(str); 
+    cout << "The length of the longest non-repeating "
+            "character substring is "
+         << len; 
+    return 0;
+}
